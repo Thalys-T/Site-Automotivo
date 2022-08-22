@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Estética</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <h2> Olá, seja bem-vindo(a)! </h2> <h3> Atendimento ao cliente: (51) 00000-0000 </h3>
+        
+     </header>
+    <!-- Topo pequeno apenas para "Olá seja bem vindo" "Telefone" "Icone de rede social que direciona"-->
+
+    <twoheader> <h4> Estética Automotiva </h4> </twoheader>
+    <!-- Logo, Pesquisa, "Precisa de ajuda?", "Minha conta", "Meu carrinho"-->
+
+    <threeheader>  </threeheader>
+    <!-- O que a Estética faz -->
+
+    <main> CONTEÚDO </main>
+
+    <footer> </footer>
+    <!-- Direitos, Logo de redes sociais que redireciona-->
+
+    <div class="LogoInstagramTop">
+        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="">
+
+        <style>
+            .LogoInstagramTop img {
+                position: absolute;
+                margin: 0;
+                top: 5px;
+                width: 16px;
+                left: 90%;
+            }
+        </style>
+    </div>
+
+    <div class="LogoMarca">
+        <img src="https://images.vexels.com/media/users/3/137678/isolated/preview/cd52ed115a2c5a0992d7b23b7b3b0f53-traco-poligonal-geometrico-do-logotipo.png" alt="">
+
+        <style>
+            .LogoMarca img {
+                position: absolute;
+                margin: 0;
+                top: 60px;
+                width: 80px;
+                left: 300px;
+            }
+        </style>
+
+    </div>
+
+    <div class="LogoLogin">
+    <img src="https://chasentbon.fr/wp-content/uploads/2021/11/account.png" alt="">
+
+        <style>
+            .LogoLogin img {
+                position: absolute;
+                margin: 0;
+                top: 60px;
+                width: 50px;
+                left: 75%;
+            }
+
+        </style>
+
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            display: grid;
+            grid-template-areas:
+                "header header"               
+                "twoheader twoheader"
+                "threeheader threeheader"
+                "main main"
+                "footer footer";
+
+        grid-template-rows:  25px 145px 80px 1fr 40px;
+        grid-template-columns: 1fr
+        }
+
+        header {
+            grid-area: header;
+            background-color: rgb(209, 1, 1);
+            
+            
+        }
+        
+        twoheader {
+            grid-area: twoheader;
+            background-color: rgb(255, 0, 0);
+
+            display: flex;
+        }
+
+        threeheader {
+            grid-area: threeheader;
+            background: linear-gradient(rgb(32, 30, 30), black);
+
+            display: flex;
+        }
+
+        main {
+            grid-area: main;
+            background-color: rgb(255, 255, 255);
+
+            display: flex;
+        }
+
+        footer {
+            grid-area: footer;
+            background: linear-gradient(gray, rgb(194, 194, 194));
+
+            display: flex;
+        }
+
+        h2 {
+            display: inline;
+            position: relative;
+            margin: 50px;
+            font-size: 13px;
+            letter-spacing: 2px;
+            color:rgb(255, 255, 255);
+            font-family: 'Roboto Slab', serif;
+        }
+
+        h3 {
+            display: inline;
+            position: relative;
+            margin: 0px;
+            font-size: 13px;
+            letter-spacing: 2px;
+            color:rgb(255, 255, 255);
+            font-family: 'Roboto Slab', serif;
+            left: 25%;
+            
+        }
+
+        h4 {
+            display: inline;
+            position: relative;
+            margin: 0px;
+            font-size: 40px;
+            letter-spacing: 3px;
+            color:rgb(255, 255, 255);
+            font-family: 'Roboto Slab', serif;
+            left: 20%;
+            margin-top: 45px;
+        }
+
+    </style>
+
+    
+</body>
+</html>
