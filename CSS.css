@@ -1,0 +1,125 @@
+
+.LogoInstagramTop img {
+    position: absolute;
+    margin: 0;
+    top: 5px;
+    width: 16px;
+    left: 90%;
+}
+
+.LogoMarca img {
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    width: 80px;
+    left: 15%;
+    
+}
+
+.LogoLogin img {
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    width: 50px;
+    left: 75%;
+    
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "content content"               
+        "nav nav"             
+        "main main"
+        "footer footer";
+
+grid-template-rows:  25px 145px 80px 1fr 40px;
+grid-template-columns: 1fr
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(209, 1, 1);
+    
+    
+    
+}
+
+content {
+    grid-area: content;
+    background-color: rgb(255, 0, 0);
+
+    display: flex;
+}
+
+nav {
+    grid-area: nav;
+    background: linear-gradient(rgb(32, 30, 30), black);
+
+    display: flex;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+}
+
+footer {
+    grid-area: footer;
+    background: linear-gradient(gray, rgb(194, 194, 194));
+
+    display: flex;
+}
+
+h2 {
+    display: inline;
+    position: relative;
+    margin: 50px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    display: inline;
+    position: relative;
+    margin: 0px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    left: 25%;
+    
+}
+
+h4 {
+    display: inline;
+    position: relative;
+    margin: 0px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    left: 20%;
+    margin-top: 45px;
+}
+
+h5 {
+    display: inline;
+    position: relative;
+    margin: 1px;
+    margin-top: -75px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    left: 80px;
+    padding: 100px;
+}
