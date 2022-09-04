@@ -43,7 +43,7 @@ grid-template-columns: 1fr
 
 header {
     grid-area: header;
-    background-color: rgb(209, 1, 1);
+    background-color: rgb(164, 6, 6);
     
     
     
@@ -51,7 +51,7 @@ header {
 
 content {
     grid-area: content;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(168, 26, 26);
 
     display: flex;
 }
